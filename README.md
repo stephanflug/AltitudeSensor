@@ -1,13 +1,12 @@
 # 🛰️ Altitude Sensor
 
 <img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Bild.png?raw=true" alt="Logo" width="1000" height="500"/>
----
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-ESP32-green.svg)]()
 [![MQTT](https://img.shields.io/badge/Protocol-MQTT-orange.svg)]()
 
----
 
 ## 📋 Beschreibung
 
