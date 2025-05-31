@@ -71,7 +71,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32/ESP8266.
   "max_delta_alt": 15.4,
   "bootCount": 3
 }
-
+```
 
 ### Unterstütze das Büro-Kaffeekonto!
 
