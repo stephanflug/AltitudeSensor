@@ -73,6 +73,17 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 }
 ```
 
+📚 Benötigte Bibliotheken
+Adafruit AHTX0
+
+Adafruit BMP280
+
+U8g2 Display
+
+PubSubClient MQTT
+
+Preferences Library (Teil des ESP Arduino Cores)
+
 ### Unterstütze das Büro-Kaffeekonto!
 
 Damit der Kaffee im Büro nie ausgeht, wäre eine kleine Spende super! 💰☕  
