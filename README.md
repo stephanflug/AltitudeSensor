@@ -60,3 +60,25 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32/ESP8266.
 ## 📡 MQTT-Topic & Payload
 
 **Topic:**
+
+
+**Beispiel Payload (JSON):**
+```json
+{
+  "temp": 22.5,
+  "hum": 55.3,
+  "alt": 250.1,
+  "max_delta_alt": 15.4,
+  "bootCount": 3
+}
+
+
+### Unterstütze das Büro-Kaffeekonto!
+
+Damit der Kaffee im Büro nie ausgeht, wäre eine kleine Spende super! 💰☕  
+Jeder Beitrag hilft, die Kaffeemaschine am Laufen zu halten, damit wir alle produktiv bleiben können!
+
+[**Spende für Kaffee**](https://www.paypal.com/donate/?business=ACU26RPTCA44S&no_recurring=0&item_name=Dieses+Projekt+und+der+Service+kann+nur+durch+eure+Spenden+finanziert+werden.&currency_code=EUR)
+
+Vielen Dank für deine Unterstützung! 🙌
+
