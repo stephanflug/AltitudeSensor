@@ -12,7 +12,7 @@
 
 ## 📋 Beschreibung
 
-Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32/ESP8266. 
+Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 
 **Features:**
 
@@ -41,7 +41,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32/ESP8266.
 ## 🚀 Installation & Nutzung
 
 1. Verbinde Sensoren und Display mit den oben angegebenen Pins.  
-2. Firmware auf den ESP32/ESP8266 flashen.  
+2. Firmware auf den ESP32c3 flashen.  
 3. Beim ersten Start öffnet sich ein WLAN-Hotspot `Altitude Sensor` für die Konfiguration.  
 4. Im Browser WLAN-Hotspot aufrufen und SSID, Passwort, MQTT-Daten sowie Sensor-ID eingeben.  
 5. Nach Speichern erfolgt automatischer Neustart und Verbindung zum WLAN.  
