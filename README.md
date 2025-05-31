@@ -74,6 +74,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 ```
 
 📚 Benötigte Bibliotheken
+
 Adafruit AHTX0
 
 Adafruit BMP280
