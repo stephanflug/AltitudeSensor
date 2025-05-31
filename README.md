@@ -68,7 +68,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
   "temp": 22.5,
   "hum": 55.3,
   "alt": 250.1,
-  "max_delta_alt": 15.4,
+  "max_delta_alt": 103,4,
   "bootCount": 3
 }
 ```
