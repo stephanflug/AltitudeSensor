@@ -1,4 +1,4 @@
-# 🛰️ Altitude Sensor Firmware
+# 🛰️ Altitude Sensor
 
 ![Altitude Sensor Icon](https://img.icons8.com/ios-filled/50/000000/altimeter.png)
 
