@@ -38,12 +38,26 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 
 ## 🚀 Installation & Nutzung
 
-1. Verbinde Sensoren und Display mit den oben angegebenen Pins.  
-2.Firmware auf den ESP32c3 flashen.👉 Dafür kann bequem der Web ESP Flasher verwendet werden: https://flugbuch.gltdienst.home64.de/flasher/ 
-3. Beim ersten Start öffnet sich ein WLAN-Hotspot `Altitude Sensor` für die Konfiguration.  
-4. Im Browser WLAN-Hotspot aufrufen und SSID, Passwort, MQTT-Daten sowie Sensor-ID eingeben.  
-5. Nach Speichern erfolgt automatischer Neustart und Verbindung zum WLAN.  
-6. Sensordaten werden über MQTT gesendet und auf dem OLED angezeigt.
+1. **Verbinde Sensoren und Display** mit den oben angegebenen Pins.
+
+2. **Firmware auf den ESP32c3 flashen**  
+   👉 Dafür kann bequem der **Web ESP Flasher** verwendet werden:  
+   [https://flugbuch.gltdienst.home64.de/flasher/](https://flugbuch.gltdienst.home64.de/flasher/)
+
+   ### 🛠️ Hinweis zum Flash-Vorgang
+
+   - Halte während des Verbindungsaufbaus im Flasher-Tool die **Boot-Taste** gedrückt.  
+   - Drücke **kurz die Reset-Taste** am ESP32, während die Boot-Taste weiterhin gedrückt ist.  
+   - Danach kannst du die **Boot-Taste loslassen**.  
+   - Nun sollte die Verbindung hergestellt und die Firmware übertragen werden.
+
+3. Beim ersten Start öffnet sich ein WLAN-Hotspot **„Altitude Sensor“** für die Konfiguration.
+
+4. Im Browser den Hotspot aufrufen und **SSID**, **Passwort**, **MQTT-Daten** sowie **Sensor-ID** eingeben.
+
+5. Nach dem Speichern erfolgt ein automatischer Neustart und die Verbindung zum WLAN.
+
+6. Die **Sensordaten werden über MQTT gesendet** und auf dem **OLED-Display angezeigt**.
 
 ---
 
