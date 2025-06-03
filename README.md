@@ -51,7 +51,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
    - Danach kannst du die **Boot-Taste loslassen**.  
    - Nun sollte die Verbindung hergestellt und die Firmware übertragen werden.
 
-3. Beim ersten Start öffnet sich ein WLAN-Hotspot **„Altitude Sensor“** für die Konfiguration.
+3. Beim ersten Start (Lang drücken (≥ 3 Sek.):** Start des Setup-Hotspots.)öffnet sich ein WLAN-Hotspot **„Altitude Sensor“** für die Konfiguration.
 
 4. Im Browser den Hotspot aufrufen und **SSID**, **Passwort**, **MQTT-Daten** sowie **Sensor-ID** eingeben.
 
