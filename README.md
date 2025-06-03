@@ -44,7 +44,7 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
    👉 Dafür kann bequem der **Web ESP Flasher** verwendet werden:  
    [https://flugbuch.gltdienst.home64.de/flasher/](https://flugbuch.gltdienst.home64.de/flasher/)
 
-   ### 🛠️ Hinweis zum Flash-Vorgang
+   ### 🛠️ Hinweis zum Flash-Vorgang(nur wenn das Gerät nicht angezeigt wird)
 
    - Halte während des Verbindungsaufbaus im Flasher-Tool die **Boot-Taste** gedrückt.  
    - Drücke **kurz die Reset-Taste** am ESP32, während die Boot-Taste weiterhin gedrückt ist.  
