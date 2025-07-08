@@ -1,0 +1,15 @@
+Partlist
+
+Assembly variant: 
+
+Part     Value          Package       Library           Position (inch)       Orientation
+
+AKKU     +              1X05/90       pinhead           (0.54 1.94375)        R0
+C1       1uF            SMC_A         rcl-2             (0.3925 1.66125)      R180
+C2       2,2uF          SMC_A         rcl-2             (0.3825 1.26)         R180
+C3       470pF          C1206         rcl-2             (0.3825 1.36375)      R180
+JP2      BMP280         1X04          pinhead           (0.2925 1.14875)      R0
+S1                      DTS63KV       DTS-63K-V         (0.69375 1.61375)     R0
+U$1      ESP32-C3-OLED  ESP32-C3-OLED ESP32C3supermini  (0.69 0.49375)        R0
+U1       MIC5219-3.3YM5-TR   SOT23-5  SparkFun-IC-Power (0.3975 1.51125)      R270
+Q1       IRLM6402        P-Kanal MOSFET
