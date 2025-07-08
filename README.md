@@ -24,6 +24,20 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 - Speicherung der Einstellungen & Maximalwerte im non-volatile Speicher (Preferences)  
 
 ---
+## 📐 Neues Platinen-Layout
+
+Ein eigenes **Platinen-Layout** wurde erstellt!  
+Du kannst jetzt ganz einfach die **Gerber-Datei** verwenden und die gewünschte Anzahl der Platinen direkt und bequem online bei [JLCPCB](https://jlcpcb.com/) bestellen. 🚀
+
+### 📁 Gerber-Dateien zum Download  
+[Gerber_HoehensensorV4.zip](https://github.com/stephanflug/AltitudeSensor/blob/main/Platinen%20Layout/Gerber_HoehensensorV4.zip)
+
+---
+
+💡 **Tipp:**  
+- Einfach die ZIP-Datei hochladen und deine Platinen individuell konfigurieren.  
+- JLCPCB bietet schnelle Fertigung zu günstigen Preisen.  
+- Ideal, um schnell und unkompliziert deine Platinen in professioneller Qualität zu erhalten.
 
 ## ⚙️ Hardwareanschluss
 
