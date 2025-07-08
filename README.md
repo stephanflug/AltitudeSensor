@@ -1,12 +1,6 @@
 # 🛰️ Altitude Sensor
 
-<img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Bild.png?raw=true" alt="Logo" width="1000" height="500"/>
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-ESP32-green.svg)]()
-[![MQTT](https://img.shields.io/badge/Protocol-MQTT-orange.svg)]()
-
+<p align="center"> <img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Logo.png?raw=true" alt="Altitude Sensor Logo" width="300"/> </p> <p align="center"> <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/> <img src="https://img.shields.io/badge/Platform-ESP32-green.svg" alt="Platform"/> <img src="https://img.shields.io/badge/Protocol-MQTT-orange.svg" alt="MQTT"/> </p> <p align="center"> <img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Bild.png?raw=true" alt="Sensor Hardware" width="1000" height="500"/> </p>
 
 ## 📋 Beschreibung
 
@@ -22,6 +16,33 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 - OTA-Updates per Button  
 - Langdruck-Button zur Steuerung (Reset, Setup, Update)  
 - Speicherung der Einstellungen & Maximalwerte im non-volatile Speicher (Preferences)  
+
+## ✨ Coole Features auf einen Blick
+
+🧠 **Smart Setup via WLAN-Hotspot**  
+> Kein Hardcoding nötig! Einfach Gerät einschalten, Hotspot öffnen und SSID + MQTT-Zugang im Browser konfigurieren.
+
+📡 **Live MQTT-Datenübertragung**  
+> Temperatur, Luftfeuchtigkeit, Luftdruck und Höhe – alles in Echtzeit über MQTT an dein Smart-Home-System.
+
+🖥️ **OLED-Anzeige integriert**  
+> Die wichtigsten Sensordaten immer direkt im Blick – auch ohne Smartphone oder PC.
+
+🔄 **OTA-Updates per Tastendruck**  
+> Firmware-Updates direkt per WLAN – ganz ohne Kabel oder PC-Verbindung. Nur lange drücken, fertig.
+
+📏 **Automatisches Höhendelta-Tracking**  
+> Das Gerät misst und speichert automatisch die maximale Höhenänderung seit dem letzten Reset.
+
+💾 **Speicher für Maximalwerte und Einstellungen**  
+> Alle wichtigen Daten bleiben erhalten – auch nach Stromverlust oder Neustart.
+
+🧰 **Super einfacher Web-Flasher**  
+> Keine IDE, keine Treiberprobleme. Flash direkt im Browser:  
+> [➡️ Zum Flasher](https://flugbuch.gltdienst.home64.de/flasher/)
+
+🪛 **Open Hardware – Platinen-Layout inklusive**  
+> Platine selbst bauen oder bestellen – die Gerber-Dateien sind bereits vorbereitet!
 
 ---
 ## 📐 Neues Platinen-Layout
