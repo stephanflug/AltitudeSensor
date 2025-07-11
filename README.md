@@ -2,6 +2,11 @@
 
 <p align="center"> <img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Logo.png?raw=true" alt="Altitude Sensor Logo" width="300"/> </p> <p align="center"> <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/> <img src="https://img.shields.io/badge/Platform-ESP32-green.svg" alt="Platform"/> <img src="https://img.shields.io/badge/Protocol-MQTT-orange.svg" alt="MQTT"/> </p> <p align="center"> <img src="https://github.com/stephanflug/AltitudeSensor/blob/main/Bild.png?raw=true" alt="Sensor Hardware" width="1000" height="500"/> </p>
 
+
+## Kontakt  
+Bei Fragen können Sie mich gerne per E-Mail erreichen:  
+📧 [steuerung@gmx.at](mailto:steuerung@gmx.at)
+
 ## 📋 Beschreibung
 
 Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
