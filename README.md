@@ -112,7 +112,7 @@ Du kannst jetzt ganz einfach die **Gerber-Datei** verwenden und die gewünschte 
 - **Lang drücken (≥ 3 Sek.):** Start des Setup-Hotspots.  
 - **Sehr lang drücken (≥ 10 Sek.):** OTA-Update starten.
   
-<img width="130" height="177" alt="image" src="https://github.com/user-attachments/assets/146ba063-2664-47c5-ae3b-b4c351678ce0" />
+<img width="141" height="182" alt="image" src="https://github.com/user-attachments/assets/cfd0d02b-115a-49a8-b3bf-90f3b3f04fe7" />
 
 ---
 
