@@ -106,11 +106,13 @@ Du kannst jetzt ganz einfach die **Gerber-Datei** verwenden und die gewünschte 
 
 ---
 
-## 🔘 Bedienung des Buttons
+## 🔘 Bedienung des Buttons(rechte Taste)
 
 - **Kurz drücken (< 3 Sek.):** Reset der gespeicherten Maximalwerte.  
 - **Lang drücken (≥ 3 Sek.):** Start des Setup-Hotspots.  
 - **Sehr lang drücken (≥ 10 Sek.):** OTA-Update starten.
+  
+<img width="130" height="177" alt="image" src="https://github.com/user-attachments/assets/146ba063-2664-47c5-ae3b-b4c351678ce0" />
 
 ---
 
