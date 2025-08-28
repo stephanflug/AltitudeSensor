@@ -20,7 +20,25 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 - MQTT-Protokoll zum Senden der Sensordaten  
 - OTA-Updates per Button  
 - Langdruck-Button zur Steuerung (Reset, Setup, Update)  
-- Speicherung der Einstellungen & Maximalwerte im non-volatile Speicher (Preferences)  
+- Speicherung der Einstellungen & Maximalwerte im non-volatile Speicher (Preferences)
+
+Neue Funktionen (v1.5.0)
+
+🛩️ Vertikalgeschwindigkeit (m/s) mit Glättung & Peak‑Hold (max_v)
+
+📶 RSSI‑Balken oben rechts: zeigt die aktuelle WLAN‑Signalstärke (0–4 Balken)
+
+🔵 MQTT‑Send‑Indikator unten links: Punkt blinkt kurz nach erfolgreichem Publish
+
+7‑Segment‑ähnliche Auto‑Fit‑Zahlen mit Dezimal‑Komma (z. B. „230,5“) – dynamische Schriftgröße
+
+🔁 Seitenrotation am Display (alle ~5 s):
+
+dH max [m]
+
+v max [m/s]
+
+AF (Boot‑Zähler) 
 
 ## ✨ Coole Features auf einen Blick
 
@@ -111,24 +129,43 @@ Du kannst jetzt ganz einfach die **Gerber-Datei** verwenden und die gewünschte 
 - **Kurz drücken (< 3 Sek.):** Reset der gespeicherten Maximalwerte.  
 - **Lang drücken (≥ 3 Sek.):** Start des Setup-Hotspots.  
 - **Sehr lang drücken (≥ 10 Sek.):** OTA-Update starten.
+
+  Zusätzlich existiert ein zweiter Reset‑Button (links), der die Werte sofort zurücksetzt.
   
 <img width="141" height="182" alt="image" src="https://github.com/user-attachments/assets/cfd0d02b-115a-49a8-b3bf-90f3b3f04fe7" />
 
 ---
 
+🖥️ Anzeige‑Details (OLED)
+
+Oben rechts: WLAN‑Signal (RSSI‑Balken, 0–4)
+
+Unten links: MQTT‑Punkt, blinkt kurz nach erfolgreichem Publish
+
+Einheiten: „m“ bzw. „m/s“ rechts unten
+
+Außerhalb Bereich (|ΔH| > ALT_RANGE): Anzeige des aktuellen ΔH mit „P“ links unten (Peak)
+
+Rotation: dH max → v max → AF (je ~5 s)
+
 ## 📡 MQTT-Topic & Payload
 
-**Topic:**
+Topic‑Format:
 
+Altitude/sensor<SENSOR_ID>
+
+Beispiel für SENSOR_ID = 1 → Altitude/sensor1
 
 **Beispiel Payload (JSON):**
 ```json
 {
-  "temp": 22.5,
-  "hum": 55.3,
-  "alt": 250.1,
-  "max_delta_alt": 103,4,
-  "bootCount": 3
+"temp": 22.5,
+"hum": 55.3,
+"alt": 250.1,
+"max_delta_alt": 103.4,
+"v": 0.72,
+"max_v": 2.85,
+"bootCount": 3
 }
 ```
 
