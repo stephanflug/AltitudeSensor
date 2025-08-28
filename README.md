@@ -21,6 +21,9 @@ Firmware für einen IoT-Höhen- und Umweltsensor basierend auf ESP32c3
 - OTA-Updates per Button  
 - Langdruck-Button zur Steuerung (Reset, Setup, Update)  
 - Speicherung der Einstellungen & Maximalwerte im non-volatile Speicher (Preferences)
+- Anzeige Einstellungen direkt am Gerät möglich.
+- OTA Update auch über WEB direkt am Gerät möglich
+- Vertikalgeschwindigkeit
 
 Neue Funktionen (v1.5.0)
 
